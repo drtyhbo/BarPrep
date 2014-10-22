@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	
+	<TextView
+			android:gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/correct"
+			android:paddingBottom="10px"
+			android:paddingLeft="10px"
+			android:paddingRight="10px"
+			android:paddingTop="10px"
+			android:text="Correct!"
+			android:textSize="20dp"
+			android:textColor="#00FF00"
+			android:visibility="gone"/>
+	<TextView
+			android:gravity="center"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/incorrect"
+			android:paddingBottom="10px"
+			android:paddingLeft="10px"
+			android:paddingRight="10px"
+			android:paddingTop="10px"
+			android:text="Incorrect"
+			android:textColor="#FF0000"
+			android:textSize="20dp"
+			android:visibility="gone"/>
+
+	<TextView
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:id="@+id/explanation"
+			android:paddingBottom="10px"
+			android:paddingLeft="10px"
+			android:paddingRight="10px"
+			android:paddingTop="10px"
+			android:textSize="16dp"/>
+	<Button
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/next_question"
+			android:text="@string/next_question"/>
+</ScrollView>

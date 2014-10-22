@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Bar PrepTests' target in the 'Bar PrepTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
